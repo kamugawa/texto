@@ -1,0 +1,50 @@
+body{
+width: 100%;
+height: auto;
+background: linear-gradient(to bottom, #28292a, #000000);
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.texto{
+
+background-color: rgb(44, 43, 40);
+margin: 0 auto;
+height: 100%;
+width: 700px;
+box-shadow: rgba(0, 0, 0, 6) ;
+border: solid rgb(0, 0, 0) 2px;
+border-radius: 5px;
+color: white;
+padding: 10px;
+
+}
+
+.texto p {
+
+    color: rgba(240, 248, 255, 0.921);
+}
+
+.texto h1{
+font-size: 28px;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .texto {
+        width: 80%;
+    }
+}
+
+
+footer{
+font-size: 20px;
+margin-top: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+padding: 20px;
+
+
+}
